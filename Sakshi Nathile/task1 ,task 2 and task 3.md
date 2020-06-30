@@ -1,34 +1,34 @@
- Task 1
-1 . Git is a distributed version control system  and also it is one of the Software. It is help to work on project simultaneously with different versions . Github is a web based hosting services for Git repository to bring teams together .
+### Task 1
+1 . _Git is a distributed version control system  and also it is one of the Software. It is help to work on project simultaneously with different versions . Github is a web based hosting services for Git repository to bring teams together_ .
 
 2. Git is popular because of...
-As the largest open source repository in the worldm GitHub offers a number of unmatched benefits to developers everywhere. GitHub is the world's largest software development platform. It supports all popular programming languages.
-1.The Largest shared Repository
-2.Easy Version control 
-3.Secure cloud storage.
+_As the largest open source repository in the worldm GitHub offers a number of unmatched benefits to developers everywhere. GitHub is the world's largest software development platform. It supports all popular programming languages_
+**1.The Largest shared Repository**
+**2.Easy Version control** 
+**3.Secure cloud storage**
 
-3. Git Version Control System. ... The version control system is a collection of software tools that help a team to manage changes in a source code. It uses a special kind of database to keep track of every modification to the code. Developers can compare earlier versions of the code with an older version to fix the mistakes.
+3. _Git Version Control System. ... The version control system is a collection of software tools that help a team to manage changes in a source code. It uses a special kind of database to keep track of every modification to the code. Developers can compare earlier versions of the code with an older version to fix the mistakes_
 
 4. Similar Platforms are ....
-1. Gitlab
-2. SourceForge 
-3. Cloud source Repositories
-4. Apache Allura
+**1.Gitlab**
+**2.SourceForge** 
+**3.Cloud source Repositories**
+**4.Apache Allura**
 
-5. GitHub is an open-source repository hosting service. It hosts our source code projects in a variety of different programming languages and keeps track of the various changes made to every iteration. Its interesting to learn about how to distributed version control works. Thats why I am interesting to learn Git and Github.
+5. _GitHub is an open-source repository hosting service. It hosts our source code projects in a variety of different programming languages and keeps track of the various changes made to every iteration. Its interesting to learn about how to distributed version control works. Thats why I am interesting to learn Git and Github_.
 
 
-Task 2
+## Task 2
 Que A. How git workflow works?
-Answer:-  1 workspace:-  which is our local               directory
-2 Index:- it's also called as stage. 
-3 Local Repository:-The local repo is on your computer for only your direct use.
-4 Remote Repository:- The remote repo is typically elsewhere and for your indirect use.
-Workspace file contains 4 state 
-1 Root folder.
-2 User name and email.
-3 Set of remote repositories (so it is able to fetch it; see below)
-4 Current list of commit bundles (changelists) and branches.
+Answer:-  _1 workspace:-  which is our local directory_
+2 _Index:- it's also called as stage_. 
+3 _Local Repository:-The local repo is on your computer for only your direct use_.
+4 _Remote Repository:- The remote repo is typically elsewhere and for your indirect use_.
+**Workspace file contains 4 state** 
+**1 Root folder**.
+**2 User name and email**.
+**3 Set of remote repositories (so it is able to fetch it; see below)**
+**4 Current list of commit bundles (changelists) and branches**.
 Few commands :-
 a) git init:-(git init) 
 This command turns a directory into an empty Git repository. This is the first step in creating a repository. After running git init, adding and committing files/directories is possible.
@@ -39,20 +39,19 @@ With Git, there are many configurations and settings possible. git config is h
 
 
 Que B. What are the different stages of a git project as commit ,add?
-Answer Untracked:- the file exists, but is not part of git's version control. 
-Staged:- The file has been added to git's version control but changes have not been committed. 
-Committed:- This is the final stage, as this stage finally applies the new changes to the remote repository.: the change has been committed. 
+Answer Untracked:- _The file exists, but is not part of git's version control. 
+Staged:- _The file has been added to git's version control but changes have not been committed_. 
+Committed:- _This is the final stage, as this stage finally applies the new changes to the remote_ repository.: _the change has been committed_. 
 
 
 Que C. Is it possible to do a git commit before git add. if you have made any changes. Explain why?
-Answer:- No, because according to the process
-first, we have to add the file and then commit changes to it.
-The "commit" command is used to save our changes to the local repository. That we have to explicitly tell Git which changes we want to include in a commit before running the "git commit" command. This means that a file won't be automatically included in the next commit just because it was changed. Instead, we need to use the "git add" command to mark the desired changes for inclusion.
-After making the changes we will add them using “git add .”
-and then we can commit it using (commit -a).
+Answer:- **No**, _because according to the process_
+_first, we have to add the file and then commit changes to it_.
+_The "commit" command is used to save our changes to the local repository. That we have to explicitly tell Git which changes we want to include in a commit before running the "git commit" command. This means that a file won't be automatically included in the next commit just because it was changed. Instead, we need to use the "git add" command to mark the desired changes for inclusion_._After making the changes we will add them using “git add_ .”
+_and then we can commit it using (commit -a)_.
 
 Question D. Why is git diff used?
-Answer : Git provides a diff command to let you compare different versions of your files. The most common scenario to use diff is to see what changes you made after your last commit.Diff command takes two inputs and reflects the differences between them. These inputs don't need to be filed only.
+Answer : _Git provides a diff command to let you compare different versions of your files_. _The most common scenario to use diff is to see what changes you made after your last commit_.Diff command takes two inputs and reflects the differences between them. These inputs don't need to be filed only.
 
 
 Question E. Can we leave a commit message as blank?
@@ -62,7 +61,7 @@ Link to GitHub repository:-
 https://github.com/sakshinathile/Git_Series
 
 
-ask No. 3 
+## Task No. 3 
 Que :- Fork and Clone are two different things but those things are very popular on Git.
 Fork :- Forking is we can take the copy of some one project in our system and make changes on it , will upload to the centralized server. The forked repository is mostly static. It exists in order to allow us to publish work for code review purposes. We don't do active development in our forked repository.
  
